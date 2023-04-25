@@ -1,0 +1,318 @@
+:root{
+    -md-dark-color:black;
+    --dark-color:black
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+/* for all page */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;    
+    color: white;
+    background-color: gray;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+    box-shadow: 6px 6px 20px 0px #888888;
+}
+#img{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+li{
+    list-style: none;
+}
+/* heading Section */
+#heading-div{
+    display: flex;
+    height: auto;
+    width: auto;
+    /* margin-top: 20px; */
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+}
+
+#heading-div p{
+    font-size: 3pc;
+    position: relative;
+    font-size: 4pc;
+    text-shadow: 5px 2px 8px #bdbd3a;
+    color: white;
+}
+/* For main conatiner */
+#containers{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+   justify-content: space-evenly;
+    
+}
+
+#left-side-container{
+    height: 100%;
+    width: 30%;
+}
+
+#image-wrapper{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#image-wrapper img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-shadow: 6px 6px 20px 0px #888888;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+#right-side-container{
+    display: inline;
+    height: fit-content;
+   
+    width: 60%;
+}
+
+#name{
+    font-size: 3ch;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+
+}
+#description{
+    margin-bottom: 15px;
+  
+}
+/* Movies List */
+#movies-list{
+    margin-bottom: 15px;
+  
+}
+
+#movies-heading{
+    margin-bottom: 5px;
+    font-size: 2ch;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+#movies-list-ul{
+    margin-bottom: 15px;
+
+}
+
+/*Comics List*/
+#comics-list{
+    margin-bottom: 15px;
+    
+
+}
+
+#comics-heading{
+    margin-bottom: 5px;
+    /* font-size: 2ch; */
+    font-weight: bold;
+    margin-bottom: 15px;
+   
+}
+#comics-list-ul{
+    margin-bottom: 15px;
+    height: 150px;
+    overflow-y: scroll; 
+    font-size: larger;
+
+}
+
+/*Stories List*/
+
+#stories-list{
+    margin-bottom: 15px;
+    
+}
+
+#stories-heading{
+    margin-bottom: 5px;
+    font-size: 2ch;
+    font-weight: bold;
+    margin-bottom: 15px;
+  
+}
+#stories-list-ul{
+    margin-bottom: 15px;
+    height: 150px;
+    overflow-y: scroll;
+    font-size: larger;
+
+}
+
+
+/*series list */
+#series-list{
+    margin-bottom: 15px;
+    
+}
+
+#series-heading{
+    margin-bottom: 5px;
+    font-size: 2ch;
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+}
+#series-list-ul{
+    margin-bottom: 15px;
+    height: 150px;
+    overflow-y: scroll;
+    font-size: larger;
+
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px ) {
+    #containers {
+        width: 400px;
+        position: relative;
+        display: block;
+        height: fit-content;
+        margin: auto;
+    }
+
+    #left-side-container{
+        height: 100%;
+        width: 100%;
+    }
+    
+    #image-wrapper{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #image-wrapper img{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        border: 2px solid white;
+
+    }
+    #right-side-container{
+        display: inline;
+        height: fit-content;
+        margin-top: 2pc;
+        width: 60%;
+    }
+    
+    #name{
+        font-size: 3ch;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
+     
+    }
+    #description{
+        margin-bottom: 15px;
+      
+    }
+    /* Movies List */
+    #series-list{
+        margin-bottom: 15px;
+        width: 90%;
+      
+    }
+    
+    #series-heading{
+        margin-bottom: 5px;
+        font-size: 2ch;
+        font-weight: bold;
+        margin-bottom: 15px;
+    
+    }
+    #series-list-ul{
+        margin-bottom: 15px;
+    
+    }
+    
+    /*Comics List*/
+    #comics-list{
+        margin-bottom: 15px;
+        width: 90%;
+    
+    }
+    
+    #comics-heading{
+        margin-bottom: 5px;
+        /* font-size: 2ch; */
+        font-weight: bold;
+        margin-bottom: 15px;
+       
+    }
+    #comics-list-ul{
+        margin-bottom: 15px;
+        height: 150px;
+        overflow-y: scroll;
+
+    }
+    
+    /*Stories List*/
+    
+    #stories-list{
+        margin-bottom: 15px;
+        width: 90%;
+      
+    }
+    
+    #stories-heading{
+        margin-bottom: 5px;
+        font-size: 2ch;
+        font-weight: bold;
+        margin-bottom: 15px;
+      
+    }
+    #stories-list-ul{
+        margin-bottom: 15px;
+        font-size: larger;
+
+     
+    }
+
+    
+
+
+
+}
+
+
+
+
+
