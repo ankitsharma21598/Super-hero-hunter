@@ -34,6 +34,15 @@ img{
     opacity: 0.9;
 }
 
+.homebtn a{
+    position: relative;
+    /* border: 2px solid black; */
+    padding: 15px;
+    border-radius: 15px;
+    color: WHITE;
+    /* background: black; */
+}
+
 li{
     list-style: none;
 }
@@ -91,6 +100,8 @@ li{
     box-shadow: 6px 6px 20px 0px #888888;
     border-radius: 15px;
     border: 2px solid white;
+    top: 60px;
+
 }
 #right-side-container{
     display: inline;
@@ -224,6 +235,8 @@ li{
         width: 100%;
         border-radius: 15px;
         border: 2px solid white;
+        top: 60px;
+
 
     }
     #right-side-container{

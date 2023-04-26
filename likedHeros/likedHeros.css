@@ -30,7 +30,14 @@ img{
     width: 100%;
     opacity: 0.9;
 }
-
+.homebtn a{
+    position: relative;
+    /* border: 2px solid black; */
+    padding: 15px;
+    border-radius: 15px;
+    color: WHITE;
+    /* background: black; */
+}
 li{
     list-style: none;
 }
